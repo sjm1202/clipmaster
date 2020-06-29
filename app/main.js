@@ -15,7 +15,7 @@ let browserWindow = null;
 
 const getIcon = () => {
     if(process.platform === "win32"){
-        return "../assets/clip_light.npg";
+        return "../assets/clip_light.png";
     }
     // if(systemPreferences.isDarkMode()){
     if(nativeTheme.shouldUseDarkColors){
